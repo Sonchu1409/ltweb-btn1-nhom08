@@ -1,4 +1,6 @@
 <?php
-    echo "<h1>Xin chào! Đây là trang hello.php của tôi.</h1>";
-    echo "<p>Bài tập Lập trình Web - Phần C</p>";
-?>
+// hello.php - trang PHP đầu tiên
+$monhoc = "Thiết kế và Lập trình web";
+echo "<h1>Xin chào $monhoc!</h1>";
+echo "<p>Bây giờ là " . date("H:i") . ", ngày " . date("d/m/Y") . " trên server.</p>";
+phpinfo();
